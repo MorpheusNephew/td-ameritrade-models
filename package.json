@@ -20,11 +20,11 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf ./dist && tsc"
+    "prepublishOnly": "rimraf ./dist && tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MorpheusNephew/TdAmeritradeModels.git"
+    "url": "git+https://github.com/MorpheusNephew/td-ameritrade-models.git"
   },
   "keywords": [
     "TdAmeritrade",
@@ -32,7 +32,7 @@
     "Ameritrade"
   ],
   "bugs": {
-    "url": "https://github.com/MorpheusNephew/TdAmeritradeModels/issues"
+    "url": "https://github.com/MorpheusNephew/td-ameritrade-models/issues"
   },
-  "homepage": "https://github.com/MorpheusNephew/TdAmeritradeModels#readme"
+  "homepage": "https://github.com/MorpheusNephew/td-ameritrade-models#readme"
 }
