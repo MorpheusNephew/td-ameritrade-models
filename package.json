@@ -1,7 +1,7 @@
 {
   "name": "@morpheusnephew/td-ameritrade-models",
   "version": "0.1.0",
-  "description": "The response models from TD Ameritrade's API",
+  "description": "Models from TD Ameritrade's API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Jelani Jackson",
