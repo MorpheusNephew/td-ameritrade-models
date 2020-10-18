@@ -3,4 +3,5 @@ export * from './account';
 export * from './auth';
 export * from './common';
 export * from './instrument';
+export * from './market-hours';
 export * from './order';
