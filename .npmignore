@@ -4,3 +4,4 @@ resources
 *.json
 yarn.lock
 src
+.github
