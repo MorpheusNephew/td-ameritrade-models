@@ -7,3 +7,4 @@ export * from './market-hours';
 export * from './mover';
 export * from './order';
 export * from './option-chain';
+export * from './price-history';
