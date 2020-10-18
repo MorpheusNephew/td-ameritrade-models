@@ -3,3 +3,4 @@
 resources
 *.json
 yarn.lock
+src
