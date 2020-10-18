@@ -1,0 +1,5 @@
+.prettierrc
+.eslint*
+resources
+*.json
+yarn.lock
