@@ -10,3 +10,4 @@ export * from './option-chain';
 export * from './price-history';
 export * from './quote';
 export * from './transaction-history';
+export * from './user-info';
