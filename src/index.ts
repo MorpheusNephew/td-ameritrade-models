@@ -8,3 +8,4 @@ export * from './mover';
 export * from './order';
 export * from './option-chain';
 export * from './price-history';
+export * from './quote';
