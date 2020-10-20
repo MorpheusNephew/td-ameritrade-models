@@ -5,3 +5,12 @@ export interface Token {
   expires_in?: number;
   scope?: string;
 }
+
+export interface TokenRequest {
+  grant_type: string;
+  refresh_token?: string;
+  access_type?: string;
+  code?: string;
+  client_id: string;
+  redirect_uri?: string;
+}
