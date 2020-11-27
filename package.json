@@ -1,6 +1,6 @@
 {
   "name": "@morpheusnephew/td-ameritrade-models",
-  "version": "0.12.1",
+  "version": "0.12.2",
   "description": "Models from TD Ameritrade's API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,8 +20,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "rimraf ./dist && tsc",
-    "convertToTypescript": "npx openapi-typescript"
+    "convertToTypescript": "npx openapi-typescript",
+    "build": "rimraf ./dist && tsc",
+    "publishToNpm": "yarn run build && yarn publish --access public"
   },
   "repository": {
     "type": "git",
