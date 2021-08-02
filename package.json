@@ -28,7 +28,7 @@
     "postpublishToNpm": "yarn pushTags && yarn updateChangeLog",
     "pushTags": "git push --tags",
     "updateChangeLog": "git-chglog -o CHANGELOG.md",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
