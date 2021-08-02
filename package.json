@@ -14,6 +14,8 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.13.0",
     "eslint-plugin-import": "^2.22.1",
+    "husky": ">=6",
+    "lint-staged": ">=10",
     "prettier": "2.1.2",
     "rimraf": "^3.0.2",
     "typescript": "^4.0.3"
@@ -22,7 +24,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "convertToTypescript": "npx openapi-typescript",
     "build": "rimraf ./dist && tsc",
-    "publishToNpm": "yarn run build && yarn publish --access public"
+    "publishToNpm": "yarn run build && yarn publish --access public",
+    "postinstall": "husky install"
   },
   "repository": {
     "type": "git",
@@ -36,5 +39,8 @@
   "bugs": {
     "url": "https://github.com/MorpheusNephew/td-ameritrade-models/issues"
   },
-  "homepage": "https://github.com/MorpheusNephew/td-ameritrade-models#readme"
+  "homepage": "https://github.com/MorpheusNephew/td-ameritrade-models#readme",
+  "lint-staged": {
+    "*.{ts,md}": "prettier --write"
+  }
 }
