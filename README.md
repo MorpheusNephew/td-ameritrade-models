@@ -2,6 +2,8 @@
 
 This is the repository for all of the TD Ameritrade schemas provided on TD Ameritrade's developer [site](https://developer.tdameritrade.com/).
 
+[CHANGELOG](CHANGELOG.md)
+
 ## Thanks
 
 The models were first generated with [swagger-to-ts](https://github.com/drwpow/swagger-to-ts) in which without that, this would not be happening.
