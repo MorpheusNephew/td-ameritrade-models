@@ -1,6 +1,6 @@
 {
   "name": "@morpheusnephew/td-ameritrade-models",
-  "version": "0.12.3",
+  "version": "0.12.4",
   "description": "Models from TD Ameritrade's API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
