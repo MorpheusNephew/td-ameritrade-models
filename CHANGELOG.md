@@ -1,3 +1,11 @@
+<a name="v0.12.5"></a>
+
+## [v0.12.5](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.4...v0.12.5) (2021-08-02)
+
+### Bug Fixes
+
+- Set incorrect lifecycle event for husky
+
 <a name="v0.12.4"></a>
 
 ## [v0.12.4](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.3...v0.12.4) (2021-08-02)
