@@ -8,9 +8,9 @@ export interface Token {
 }
 
 export interface TokenRequest {
-  grant_type: string;
+  grant_type: 'authorization_code' | 'refresh_token';
   refresh_token?: string;
-  access_type?: string;
+  access_type?: 'offline';
   code?: string;
   client_id: string;
   redirect_uri?: string;
