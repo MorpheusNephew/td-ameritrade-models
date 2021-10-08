@@ -212,6 +212,9 @@ export interface ETFQuote {
   regularMarketTradeTimeInLong?: number;
 }
 export interface EquityQuote {
+  assetType?: string;
+  assetMainType?: string; 
+  cusip?: string;
   symbol?: string;
   description?: string;
   bidPrice?: number;
@@ -226,6 +229,7 @@ export interface EquityQuote {
   openPrice?: number;
   highPrice?: number;
   lowPrice?: number;
+  bidTick?: string;
   closePrice?: number;
   netChange?: number;
   totalVolume?: number;
@@ -240,6 +244,7 @@ export interface EquityQuote {
   digits?: number;
   '52WkHigh'?: number;
   '52WkLow'?: number;
+  nAV?: number,
   peRatio?: number;
   divAmount?: number;
   divYield?: number;
@@ -249,4 +254,10 @@ export interface EquityQuote {
   regularMarketLastSize?: number;
   regularMarketNetChange?: number;
   regularMarketTradeTimeInLong?: number;
+  netPercentChangeInDouble: number; 
+  markChangeInDouble:  number;
+  markPercentChangeInDouble:  number;
+  regularMarketPercentChangeInDouble:  number;
+  delayed: boolean;
+  realtimeEntitled: boolean;
 }
