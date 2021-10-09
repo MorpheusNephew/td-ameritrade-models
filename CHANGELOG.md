@@ -1,3 +1,11 @@
+<a name="v0.12.7"></a>
+
+## [v0.12.7](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.6...v0.12.7) (2021-10-09)
+
+### Bug Fixes
+
+- Updated eslint for potential security risk
+
 <a name="v0.12.6"></a>
 
 ## [v0.12.6](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.5...v0.12.6) (2021-10-09)
