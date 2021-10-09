@@ -1,3 +1,11 @@
+<a name="v0.12.8"></a>
+
+## [v0.12.8](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.7...v0.12.8) (2021-10-09)
+
+### Code Refactoring
+
+- exporting sub-order types
+
 <a name="v0.12.7"></a>
 
 ## [v0.12.7](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.6...v0.12.7) (2021-10-09)
