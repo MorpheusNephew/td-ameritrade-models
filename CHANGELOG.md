@@ -1,3 +1,12 @@
+<a name="v0.12.6"></a>
+
+## [v0.12.6](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.5...v0.12.6) (2021-10-09)
+
+### Code Refactoring
+
+- Added additional undocumented properties to Equite Quote
+- Added interface for candle
+
 <a name="v0.12.5"></a>
 
 ## [v0.12.5](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.4...v0.12.5) (2021-08-02)
