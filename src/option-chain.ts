@@ -1,39 +1,7 @@
 export interface OptionChain {
   symbol?: string;
   status?: string;
-  underlying?: {
-    ask?: number;
-    askSize?: number;
-    bid?: number;
-    bidSize?: number;
-    change?: number;
-    close?: number;
-    delayed?: boolean;
-    description?: string;
-    exchangeName?:
-      | 'IND'
-      | 'ASE'
-      | 'NYS'
-      | 'NAS'
-      | 'NAP'
-      | 'PAC'
-      | 'OPR'
-      | 'BATS';
-    fiftyTwoWeekHigh?: number;
-    fiftyTwoWeekLow?: number;
-    highPrice?: number;
-    last?: number;
-    lowPrice?: number;
-    mark?: number;
-    markChange?: number;
-    markPercentChange?: number;
-    openPrice?: number;
-    percentChange?: number;
-    quoteTime?: number;
-    symbol?: string;
-    totalVolume?: number;
-    tradeTime?: number;
-  };
+  underlying?: Underlying;
   strategy?:
     | 'SINGLE'
     | 'ANALYTICAL'
@@ -93,12 +61,7 @@ export interface OptionInfo {
   theoreticalVolatility?: number;
   isMini?: boolean;
   isNonStandard?: boolean;
-  optionDeliverablesList?: {
-    symbol?: string;
-    assetType?: string;
-    deliverableUnits?: string;
-    currencyType?: string;
-  }[];
+  optionDeliverablesList?: OptionDeliverables[];
   strikePrice?: number;
   expirationDate?: string;
   expirationType?: string;
