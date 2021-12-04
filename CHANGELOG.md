@@ -1,3 +1,15 @@
+<a name="v0.12.9"></a>
+
+## [v0.12.9](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.8...v0.12.9) (2021-12-04)
+
+### Bug Fixes
+
+- Fixed returning the appropriate account type
+
+### Code Refactoring
+
+- Using underlying and option deliverables types
+
 <a name="v0.12.8"></a>
 
 ## [v0.12.8](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.7...v0.12.8) (2021-10-09)
