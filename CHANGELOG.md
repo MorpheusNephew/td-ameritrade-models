@@ -1,3 +1,9 @@
+## [0.12.11](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.10...v0.12.11) (2022-05-29)
+
+### Fix
+
+- semantic-versioning ([bcfc24d](https://github.com/MorpheusNephew/td-ameritrade-models/commit/bcfc24ddba14198b4bc1715a172f3614f00abe9a))
+
 ## [0.12.10](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.9...v0.12.10) (2022-05-29)
 
 ### fix
