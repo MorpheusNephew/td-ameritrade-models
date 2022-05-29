@@ -7,16 +7,16 @@ options:
   commits:
     filters:
       Type:
-        - feat
-        - fix
-        - perf
-        - refactor
+        - Feat
+        - Fix
+        - Perf
+        - Refactor
   commit_groups:
     title_maps:
-      feat: Features
-      fix: Bug Fixes
-      perf: Performance Improvements
-      refactor: Code Refactoring
+      Feat: Features
+      Fix: Bug Fixes
+      Perf: Performance Improvements
+      Refactor: Code Refactoring
   header:
     pattern: "^(\\w*)\\:\\s(.*)$"
     pattern_maps:
