@@ -28,7 +28,6 @@
   },
   "scripts": {
     "build": "rimraf ./dist && tsc && copyfiles package.json README.md dist/",
-    "postinstall": "husky install",
     "semantic-release": "semantic-release"
   },
   "repository": {
