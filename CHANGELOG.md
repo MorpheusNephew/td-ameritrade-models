@@ -1,3 +1,9 @@
+## [0.12.13](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.12...v0.12.13) (2022-05-29)
+
+### Fix
+
+- Updated npm automation token ([7c24842](https://github.com/MorpheusNephew/td-ameritrade-models/commit/7c2484204be98954312728293dd9244ca7d2fc16))
+
 ## [0.12.12](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.11...v0.12.12) (2022-05-29)
 
 ### Fix
