@@ -1,3 +1,14 @@
+## [0.12.10](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.9...v0.12.10) (2022-05-29)
+
+### fix
+
+- Updated dependency module ([1e16f6a](https://github.com/MorpheusNephew/td-ameritrade-models/commit/1e16f6ac3e048965a14b323c1055f0ecd31a47d5))
+- Updated minimist ([e7a777a](https://github.com/MorpheusNephew/td-ameritrade-models/commit/e7a777af3d7cb72e6e1f73aacf14069b81d1d3a4))
+
+### Fix
+
+- Using proper tag perhaps ([5126421](https://github.com/MorpheusNephew/td-ameritrade-models/commit/512642127e47b9bf3e1bb18bf3b303faa0ac0c73))
+
 <a name="v0.12.9"></a>
 
 ## [v0.12.9](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.8...v0.12.9) (2021-12-04)
