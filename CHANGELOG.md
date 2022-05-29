@@ -1,3 +1,10 @@
+## [0.12.14](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.13...v0.12.14) (2022-05-29)
+
+
+### Fix
+
+* removed husky step ([ef12dea](https://github.com/MorpheusNephew/td-ameritrade-models/commit/ef12dea30e2ce246e73acafefd540ba2ebd1642a))
+
 ## [0.12.13](https://github.com/MorpheusNephew/td-ameritrade-models/compare/v0.12.12...v0.12.13) (2022-05-29)
 
 ### Fix
