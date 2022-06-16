@@ -22,7 +22,7 @@
     "lint-staged": ">=10",
     "prettier": "2.1.2",
     "rimraf": "^3.0.2",
-    "semantic-release": "^19.0.2",
+    "semantic-release": "^19.0.3",
     "semantic-release-conventional-commits": "^3.0.0",
     "typescript": "^4.0.3"
   },
